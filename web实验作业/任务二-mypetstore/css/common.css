@@ -1,0 +1,95 @@
+/* 顶部导航栏 */
+.nav-top{
+    background-color: #e9e9e9;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+/* 顶部导航栏的左侧用户信息栏 */
+.nav-top .user-info{
+    float: left;
+    /* margin-left: 10px; */
+}
+
+.nav-top .user-info .login{
+    display: none;
+}
+
+.nav-top .user-info .link{
+    margin-right: 5px;
+}
+
+.nav-top .user-info .link:hover{
+    text-decoration: underline;
+    background-color: #fff;
+    color: #215496;
+}
+/* 顶部导航栏的右侧操作列表 */
+.nav-top .nav-top-list{
+    float: right;
+    
+}
+
+.nav-top .w .nav-top-item{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.nav-top .w .nav-top-item :hover{
+    text-decoration: underline;
+    color: red;
+}
+
+/* 搜索栏和logo*/
+.search .logo{
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #215496;
+    position: absolute;
+    top: 70px;
+    left: 26%;
+}
+
+.search .searchbox{
+    padding: 40px 0 40px 380px;
+    text-align: center;
+}
+
+.search .searchbox .search-input{
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border: 2px solid #215496;
+}
+.search .searchbox .search-input[type="text"]{
+    padding: 0 10px;
+}
+
+.search .searchbox .search-btn{
+    position: absolute;
+    width: 100px;
+    height: 44px;
+}
+
+/* 底部样式 */s
+.footer{
+    width: 100%;
+}
+
+.footer .links{
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer .links .link{
+    padding: 0 12px;
+    
+}
+
+.footer .copyright{
+    color: #8e8e8e;
+    text-align: center;
+}
